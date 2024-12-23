@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",        // Specifies the target JavaScript version
+    "module": "commonjs",        // Specifies the module code generation (ES6+)
+    "moduleResolution": "node",// Resolves modules in the Node.js style
+    "strict": true,            // Enables strict type-checking options
+    "esModuleInterop": true,   // Allows default imports from modules with no default export
+    "skipLibCheck": true,      // Skips type checking of declaration files
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"         
+  },
+  "include": [
+    "src/**/*"                 // Include all files in the src directory
+  ],
+  "exclude": [
+    "node_modules"                          // Exclude node_modules
+  ]
+}
